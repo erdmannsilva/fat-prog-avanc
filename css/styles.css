@@ -1,0 +1,121 @@
+/* Navbar */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+#filmes-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#main-navbar {
+  background-color: #121212;
+  padding: 10px;
+}
+
+/* Estilização do formulário de busca */
+#search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  max-width: 500px;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#search-form .form-control {
+  flex: 1;
+  border: none;
+  box-shadow: none;
+}
+
+#search-form button {
+  border: none;
+  background-color: transparent;
+  color: #000;
+}
+
+/* Ajustes na navbar */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #FFF;
+  transition: .5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #999;
+}
+
+/* Home */
+#main-container {
+  background-color: #000;
+  color: #FFF;
+  min-height: 65vh;
+  padding: 40px;
+}
+
+/* Footer */
+#footer {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#social-container ul,
+#footer-links-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social-container li,
+#footer-links-container li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#social-container li {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  transition: .5s;
+  line-height: 3;
+}
+
+#social-container li:hover {
+  background-color: #333;
+}
+
+#social-container a,
+#footer-links-container a {
+  color: #FFF;
+  transition: .5s;
+}
+
+#social-container li i {
+  font-size: 25px;
+}
+
+#footer-links-container {
+  margin: 30px 0;
+}
