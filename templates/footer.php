@@ -19,7 +19,7 @@
     <li><a href="#">Entrar / Registrar</a></li>
     </ul>
     </div>
-    <p>&copy; 2023 Seu Nome Completo</p>
+    <p>&copy; 2025 Seu Nome Completo</p>
     </footer>
     <!-- BOOTSTRAP JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitterbootstrap/5.2.3/js/bootstrap.js"></script>
