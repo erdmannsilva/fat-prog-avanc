@@ -56,6 +56,11 @@ require_once("globals.php");
         </div>
     </nav>
 </header>
-
+<?php if(!empty($flassMessage["msg"])): ?>
+<div class="msg-container">
+<p class="msg <?= $flassMessage["type"] ?>"><?= $flassMessage["msg"]
+?></p>
+</div>
+<?php endif; ?>
 </body>
 </html>
