@@ -13,6 +13,8 @@
 
   $comedyMovies = $movieDao->getMoviesByCategory("Comédia");
 
+  $dramaMovies = $movieDao->getMoviesByCategory("Drama");
+
 
   include_once("templates/footer.php");
 
